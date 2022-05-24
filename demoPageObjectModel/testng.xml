@@ -1,0 +1,22 @@
+<suite name="Facebook Login Test" parallel="tests" thread-count="3">
+    <test name="Facebook Login Test With Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Tests.BaseTest">
+
+            </class>
+        </classes>
+    </test>
+    <test name="Facebook Login Test With Firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="Tests.BaseTest"></class>
+        </classes>
+    </test>
+    <test name="Facebook Login Test With Edge">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="Tests.BaseTest"></class>
+        </classes>
+    </test>
+</suite>
